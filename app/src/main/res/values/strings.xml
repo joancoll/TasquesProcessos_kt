@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TasquesProcessos_kt</string>
+    <string name="task_example">Exemple tasques i processos</string>
+    <string name="color">Color:</string>
+    <string name="color_text">Color: %1$d</string>
+    <string name="task_in_queue">Tasca a la cua…</string>
+    <string name="task_running">Tasca executant-se…</string>
+    <string name="task_completed">Tasca finalitzada</string>
+    <string name="updating_progress">Actualitzant progrés… %1$d/10</string>
+    <string name="task_completed_message">Tasca completada!</string>
+    <string name="wait_loading_image">Un moment, si us plau.\nS\'està baixant la imatge…</string>
+    <string name="image_downloaded_in">Imatge descarregada en %1$d milisegons</string>
+    <string name="image_download_error">No s\'ha pogut descarregar la imatge</string>
+    <string name="executing_task_at">Executant tasca: %1$d h %2$d m %3$d s</string>
+    <string name="sending_task_at">Enviant tasca a: %1$d per ser executada després de 5s.</string>
+    <string name="creating_executor_service">Creant ExecutorService amb un pool de 2 fils</string>
+    <string name="executing_task_1">Executant tasca 1 dins: %1$s</string>
+    <string name="executing_task_2">Executant tasca 2 dins: %1$s</string>
+    <string name="executing_task_3">Executant tasca 3 dins: %1$s</string>
+    <string name="sending_tasks_to_execute">Enviant tasques a executar…</string>
+    <string name="stop_task">Atura tasca</string>
+    <string name="task_stopped">Tasca aturada</string>
+    <string name="start_multiple_threads">Inicia Multiple Threads</string>
+    <string name="start_delayed_task">Inicia Delayed Task</string>
+    <string name="start_periodic_task">Inicia Periodic Task</string>
+    <string name="thread_runnable">Inicia Thread (runnable)</string>
+    <string name="thread_futuretask">Inicia Thread (FutureTask)</string>
+    <string name="thread_schedulled">Inicia Thread (schedulled)</string>
+    <string name="downloaded_image">Imatge descarregada</string>
+    <string name="coroutine_dispatcher">Inicia Coroutine (Dispatcher)</string>
+</resources>

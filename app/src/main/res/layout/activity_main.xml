@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ly_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_example"
+            android:textSize="20sp" >
+        </TextView>
+        <Button
+            android:id="@+id/btn_colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thread_schedulled" />
+        <TextView
+            android:id="@+id/tv_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+        <Button
+            android:id="@+id/btn_future"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thread_futuretask" />
+        <TextView
+            android:id="@+id/tv_future"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+        <ProgressBar
+            android:id="@+id/pb_progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="10"
+            android:padding="4dip" />
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thread_runnable" >
+        </Button>
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+        <Button
+    android:id="@+id/btn_periodic_task"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/start_periodic_task" />
+
+<TextView
+    android:id="@+id/tv_periodic_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<Button
+    android:id="@+id/btn_delayed_task"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/start_delayed_task" />
+
+<TextView
+    android:id="@+id/tv_delayed_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+<Button
+    android:id="@+id/btn_multiple_threads"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/start_multiple_threads" />
+
+<TextView
+    android:id="@+id/tv_multiple_threads"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="" />
+        <Button
+            android:id = "@+id/btn_loadImage"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "@string/coroutine_dispatcher" />
+        <TextView
+            android:id="@+id/tv_loadImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" >
+        </TextView>
+        <ImageView
+            android:id = "@+id/iv_async"
+            android:layout_width = "500dp"
+            android:layout_height = "300dp"
+            android:contentDescription="@string/downloaded_image" />
+    </LinearLayout>
+</ScrollView>
