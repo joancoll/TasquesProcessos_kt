@@ -10,6 +10,7 @@ android {
     defaultConfig {
         applicationId = "cat.dam.andy.tasquesprocessos_kt"
         minSdk = 28
+        //noinspection EditedTargetSdkVersion
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
